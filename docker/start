@@ -76,6 +76,7 @@ run_graph_node() {
             --node-id "$node_id" \
             --postgres-url "$postgres_url" \
             --ethereum-rpc $ethereum \
+            --ethereum-rpc $canto \
             --ipfs "$ipfs" \
             ${fork_base:+ --fork-base "$fork_base"}
     fi
